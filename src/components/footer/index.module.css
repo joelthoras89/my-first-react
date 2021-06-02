@@ -1,0 +1,16 @@
+.footer {
+    margin-top: 4rem;
+    padding: 2rem 2rem;
+    background-color: #373162;
+    color: white;
+    display: flex;
+  }
+  
+  .col {
+    width: 25%;
+  }
+  .col-item {
+    line-height: 2.5rem;
+    font-weight: 700;
+    font-size: 1rem;
+  }

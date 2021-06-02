@@ -1,0 +1,240 @@
+
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  
+  .form {
+    background: #0e101c;
+    margin: 0 auto;
+  }
+  
+  input {
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  button[type="submit"],
+  input[type="submit"] {
+    background: linear-gradient(135deg, #ee512e 0%, #df006b 63.44%, #bd0071 100%);
+    border-radius: 40px;
+    color: white;
+  }
+  
+  button[type="submit"]:hover,
+  input[type="submit"]:hover {
+    background: #9ba1ad;
+    opacity: 0.5;
+    border-radius: 40px;
+    color: #4f5561;
+  }
+  
+  button[type="submit"]:active,
+  input[type="button"]:active,
+  input[type="submit"]:active {
+    transition: 0.3s all;
+    transform: translateY(3px);
+    border: 1px solid transparent;
+    opacity: 0.8;
+  }
+  
+  input:disabled {
+    opacity: 0.4;
+  }
+  
+  input[type="button"]:hover {
+    transition: 0.3s all;
+  }
+  
+  button[type="submit"],
+  input[type="button"],
+  input[type="submit"] {
+    -webkit-appearance: none;
+  }
+  
+  .App {
+    margin: 0 auto;
+  }
+  
+  button[type="button"] {
+    display: block;
+    appearance: none;
+    border-radius: 4px;
+  }
+  
+  hr {
+    margin-top: 30px;
+  }
+  
+  .container-section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .form-section {
+    width: 50%;
+    margin: 30px 30px 30px 55px;
+    background: #fefefe;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 25%);
+    border-radius: 8px;
+    padding: 30px;
+  }
+  .details {
+    width: 40%;
+    margin: 30px 0;
+    background: #fefefe;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 25%);
+    border-radius: 8px;
+    padding: 30px;
+  }
+  .card-number {
+    background: #fefefe;
+    border: 1px solid #9ba1ad;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 48px;
+  }
+  .info {
+    display: flex;
+  }
+  .card-year {
+    margin: 0 5px;
+  }
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 992px) {
+    .container-section {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .form-section,
+    .details {
+      width: 100%;
+      margin: 22px;
+      padding: 20px;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .container-section {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .form-section,
+    .details {
+      width: 100%;
+    }
+    .info {
+      flex-direction: column;
+    }
+  }
+  .title {
+    display: flex;
+    flex-direction: column;
+  }
+  .header {
+    display: flex;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+    background: #05112a;
+    color: white;
+    flex-flow: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .footer {
+    display: flex;
+    height: 104px;
+    left: 0px;
+    top: 0px;
+    background: #05112a;
+  
+    flex-flow: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+  
+    /* primary/tinted-white */
+  
+    color: #f7f9fd;
+  }
+  .details-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .details-sub {
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+  
+    /* primary/dark-grey */
+  
+    color: #4f5561;
+    width: 50%;
+    padding: 10px 0;
+  }
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  .sub-title {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  }
+  
+  .apply-text {
+    background-color: white;
+    border: none;
+    display: flex;
+    align-items: stretch;
+  }
+  .react-tabs__tab-list {
+    display: table;
+    width: 100%;
+    text-align: center;
+  }
+  .react-tabs__tab--selected {
+    display: table-cell !important;
+    border: none !important;
+    border-bottom: 4px solid #df006b !important;
+  }
+  .paypal-image {
+    width: 80px;
+    height: 20px;
+  }
+  .cc-box {
+    position: relative;
+  }
+  
+  .cc-img {
+    position: absolute;
+    right: 5px;
+    top: -1px;
+  }
+  
+  .cc-input {
+    width: 100%;
+  }
+  .buy-sub {
+    margin: 0px 120px;
+  }
+  

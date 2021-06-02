@@ -1,0 +1,8 @@
+.card {
+  background-color: transparent !important;
+  border: none !important;
+}
+.cardBody {
+  background-color: #fff;
+}
+

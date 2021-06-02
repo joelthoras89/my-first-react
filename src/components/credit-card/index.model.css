@@ -1,0 +1,15 @@
+span.text-uppercase {
+  font-weight: normal;
+  font-size: 12pt;
+}
+.mt-075 {
+  margin-top: -0.75em;
+}
+.card-date {
+  font-size: 10.5pt;
+}
+
+.cc-img-logo {
+  width: 40px;
+  margin-left: 5px;
+}
